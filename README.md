@@ -45,5 +45,6 @@ MIT License
 
 ## 相关资源
 
-- [阿里云灵积平台官方文档](https://help.aliyun.com/document_detail/2399480.html)
+- [阿里云百炼平台官方文档](https://help.aliyun.com/document_detail/2399480.html)
 - [API 参考](https://help.aliyun.com/document_detail/2400395.html) 
+- [将API Key配置到环境变量](https://help.aliyun.com/zh/model-studio/developer-reference/configure-api-key-through-environment-variables)
