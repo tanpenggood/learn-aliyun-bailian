@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+bailian:
+  base-url: https://dashscope.aliyuncs.com/api/v1/
+  application:
+    english-translation:
+      name: 英语翻译专家
+      app-id: bc600bd836a74325b3c6ed0eb8fe41dc
+      app-type: 智能体应用
+      base-url: ${bailian.base-url}
