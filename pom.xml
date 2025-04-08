@@ -12,6 +12,7 @@
         <module>demo1-bailian-llm</module>
         <module>demo2-bailian-llm-stream</module>
         <module>demo3-bailian-app-agent</module>
+        <module>demo4-bailian-app-ccai</module>
     </modules>
 
     <parent>
