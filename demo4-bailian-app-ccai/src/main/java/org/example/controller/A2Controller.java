@@ -17,15 +17,15 @@ import java.util.Map;
 
 @Slf4j
 @RestController
-public class A1Controller {
+public class A2Controller {
 
-    @GetMapping(value = "/ai/app/ccai/a1")
-    public RunCompletionResponse a1(@RequestParam(value = "message", defaultValue = "很高兴见到你。") String message) throws Exception {
+    @GetMapping(value = "/ai/app/ccai/a2")
+    public RunCompletionResponse a2(@RequestParam(value = "message", defaultValue = "很高兴见到你。") String message) throws Exception {
         log.info("start.");
         RunCompletionRequest runCompletionRequest = new RunCompletionRequest()
                 .setDialogue(ClientUtil.defaultDialogue())
                 .setTemplateIds(List.of(
-                        1118L
+                        1120L
                 ));
         RuntimeOptions runtime = new RuntimeOptions();
         runtime.setConnectTimeout(Integer.MAX_VALUE);
@@ -34,7 +34,7 @@ public class A1Controller {
         try {
             // 复制代码运行请自行打印 API 的返回值
             Client client = ClientUtil.createClient();
-            RunCompletionResponse response = client.runCompletionWithOptions("llm-g1ss1dpovtmdv36l", "b7d6b067590d4205b8a7a981dd25d26d",
+            RunCompletionResponse response = client.runCompletionWithOptions("llm-g1ss1dpovtmdv36l", "013437ac6f3949e9b82fc75f128ccb20",
                     runCompletionRequest, headers, runtime);
             log.info("finish.");
             return response;
