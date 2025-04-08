@@ -25,6 +25,7 @@ learn-aliyun-bailian/
 ├── demo1-bailian-llm             # 调用大模型（文本生成、视觉理解）
 ├── demo2-bailian-llm-stream      # 调用大模型（文本生成-流式输出）
 ├── demo3-bailian-app-agent       # 调用应用（智能体应用）
+├── demo4-bailian-app-ccai        # 调用应用（Concat Center AI）
 ├── pom.xml
 └── README.md
 ```
